@@ -17,75 +17,51 @@
     />
   </head>
   <body>
-    <section class="block block--dark block-showcase">
+    <section class="block">
       <header class="block__header">
-        <h2>User-friendly Control Panel</h2>
+        <h2>What our Customers are Saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+          culpa.
+        </p>
       </header>
-      <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
-          <source
-            type="image/webp"
-            srcset="/Images/ipad.webp 1x, /Images/ipad@2x.webp"
-          />
-          <source
-            type="image/png"
-            srcset="/Images/ipad.png 1x, /Images/ipad@2x.png"
-          />
-          <img src="/Images/ipad.png" alt="" />
-        </picture>
-        <ul class="list">
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="/Icons/sprite.svg#snap"></use>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img
+                src="/Images/testimonial.jpg"
+                alt="A happy, smiling customer"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="/Icons/sprite.svg#quotes"></use>
                 </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Easy Start & Managed Updates</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Similique animi amet ex tempore id dolores, dolor asperiores
-                  esse dolore temporibus.
-                </p>
-              </div>
+              </span>
             </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="/Icons/sprite.svg#growth"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Staging, GIT & WP-CLI</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Similique animi amet ex tempore id dolores, dolor asperiores
-                  esse dolore temporibus.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="/Icons/sprite.svg#wordpress"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Dynamic Caching & More</h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Similique animi amet ex tempore id dolores, dolor asperiores
-                  esse dolore temporibus.
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                totam, quam suscipit asperiores dignissimos accusantium
+                laudantium accusamus mollitia enim facere ut, inventore dolore
+                doloribus provident corrupti, sapiente odio aliquam eius!
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote--line">
+                      <use xlink:href="/Icons/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">John Smith</h3>
+                    <p class="quote__organization">ABC Company</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
       </div>
     </section>
     <script src="/js/main.js"></script>
